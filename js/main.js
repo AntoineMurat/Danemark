@@ -24,6 +24,11 @@ $(function(){
 		updateURL($(this).attr('href'))
 	})
 
+	$(window).on('hashchange', function(e){
+		$('ul.tabs').tabs('select_tab', window.location.hash.slice(1))
+		updateURL(window.location.hash)
+	})
+
 	$('.parallax').parallax()
 
 })
