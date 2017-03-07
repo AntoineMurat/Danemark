@@ -33,3 +33,7 @@ main {
 .card.hoverable{
 	cursor: pointer;
 }
+
+nav .brand-logo{
+	font-size: 3.1rem;
+}
