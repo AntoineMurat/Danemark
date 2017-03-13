@@ -54,3 +54,9 @@ main {
     color: #ee6e73 !important;
     position: relative !important;
 }
+
+.header i.material-icons{
+	vertical-align: middle; 
+    margin-right: 5px;
+    font-size: 34px;
+}
