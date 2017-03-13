@@ -55,7 +55,14 @@ main {
     position: relative !important;
 }
 
+<<<<<<< HEAD
+.header i.material-icons{
+	vertical-align: middle; 
+    margin-right: 5px;
+    font-size: 34px;
+=======
 thead i {
 	margin: 0 0 4px 8px;
 	vertical-align: middle;
+>>>>>>> 5293bd13d3f1d647ec6b06257e3a598bb95ac8ae
 }
